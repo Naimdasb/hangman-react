@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'roboto';
+  background-color: 		hsl(351, 100%, 75%); 
+}
+
+.game {
+  width: 700px;
+  background-color:  hsl(351, 85%, 68%);
+  padding: 2em;
+  border-radius: 15px;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.try, .new_game {
+  font-size: 2em;
+  outline: none;
+  background-color:  hsl(351, 85%, 68%);
+  color: white;
+  border: solid 1px white;
+  padding: 0.4em;
+  margin: 0.2em;
+  border-radius: 10px;
+}
+
+.try:hover, .new_game:hover {
+  cursor: pointer;
+  background-color:  hsl(351, 85%, 78%);
+  border: solid 1px white;
+
+}
+
+.text {
+  font-size: 1.4em;
+  padding: 0.2em;
+  text-align: center;
+  outline: none;
+  border: solid 1px white;
+  border-radius: 10px;
+  background-color:  hsl(351, 85%, 78%);
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.input {
+  font-size: 1.5em;
+  
+}
+
+.lifes {
+  font-size: 1.3em;
+}
+
+@media (max-width: 700px) {
+  .game {
+    width: 80%;
+  }
+}
+
+.header {
+   border-top: solid 1px white;
+    padding-top: 1em;
+    font-size: 2.5em;
+}
+
+.sign {
+  border-top: solid 1px white;
+  padding-top: 1em;
+  
+}
